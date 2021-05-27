@@ -43,6 +43,7 @@ public class FlipKart extends BaseTest {
 		//getExtenttest().log(LogStatus.PASS, "flipkart login");
 
 		Thread.sleep(3000);
+		System.out.println("New Code Added");
 	}
 
 }
