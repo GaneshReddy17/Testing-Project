@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30854" started-at="2021-06-05T15:11:50Z" finished-at="2021-06-05T15:12:20Z">
+  <suite name="Suite" duration-ms="31829" started-at="2021-06-05T15:23:37Z" finished-at="2021-06-05T15:24:09Z">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="30854" started-at="2021-06-05T15:11:50Z" finished-at="2021-06-05T15:12:20Z">
+    <test name="Chrome Test" duration-ms="31829" started-at="2021-06-05T15:23:37Z" finished-at="2021-06-05T15:24:09Z">
       <class name="com.automation.bussinessscript.FbTest">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="OpenBrowser" is-config="true" duration-ms="6043" started-at="2021-06-05T08:11:44Z" finished-at="2021-06-05T08:11:50Z">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="OpenBrowser" is-config="true" duration-ms="4635" started-at="2021-06-05T08:23:32Z" finished-at="2021-06-05T08:23:37Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="initireports()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="initireports" is-config="true" duration-ms="400" started-at="2021-06-05T08:11:50Z" finished-at="2021-06-05T08:11:50Z">
+        <test-method status="PASS" signature="initireports()[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="initireports" is-config="true" duration-ms="339" started-at="2021-06-05T08:23:37Z" finished-at="2021-06-05T08:23:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initireports -->
-        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="beforemethod" is-config="true" duration-ms="14" started-at="2021-06-05T08:11:50Z" finished-at="2021-06-05T08:11:50Z">
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="beforemethod" is-config="true" duration-ms="14" started-at="2021-06-05T08:23:37Z" finished-at="2021-06-05T08:23:37Z">
           <params>
             <param index="0">
               <value>
@@ -33,22 +33,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="fblogin()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="fblogin" duration-ms="9792" started-at="2021-06-05T08:11:50Z" finished-at="2021-06-05T08:12:00Z">
+        <test-method status="PASS" signature="fblogin()[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="fblogin" duration-ms="9518" started-at="2021-06-05T08:23:37Z" finished-at="2021-06-05T08:23:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fblogin -->
-        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="aftermethod" is-config="true" duration-ms="7864" started-at="2021-06-05T08:12:00Z" finished-at="2021-06-05T08:12:08Z">
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="aftermethod" is-config="true" duration-ms="6916" started-at="2021-06-05T08:23:47Z" finished-at="2021-06-05T08:23:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fblogin status=SUCCESS method=FbTest.fblogin()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f] output={null}]]]>
+                <![CDATA[[TestResult name=fblogin status=SUCCESS method=FbTest.fblogin()[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="beforemethod" is-config="true" duration-ms="1" started-at="2021-06-05T08:12:08Z" finished-at="2021-06-05T08:12:08Z">
+        <test-method status="PASS" signature="second()[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="second" duration-ms="12442" started-at="2021-06-05T08:23:54Z" finished-at="2021-06-05T08:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="beforemethod" is-config="true" duration-ms="0" started-at="2021-06-05T08:23:54Z" finished-at="2021-06-05T08:23:54Z">
           <params>
             <param index="0">
               <value>
@@ -59,26 +63,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="second()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="second" duration-ms="10172" started-at="2021-06-05T08:12:08Z" finished-at="2021-06-05T08:12:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- second -->
-        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="aftermethod" is-config="true" duration-ms="2329" started-at="2021-06-05T08:12:18Z" finished-at="2021-06-05T08:12:20Z">
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="aftermethod" is-config="true" duration-ms="2436" started-at="2021-06-05T08:24:06Z" finished-at="2021-06-05T08:24:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=second status=SUCCESS method=FbTest.second()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f] output={null}]]]>
+                <![CDATA[[TestResult name=second status=SUCCESS method=FbTest.second()[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="generteRepots()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="generteRepots" is-config="true" duration-ms="242" started-at="2021-06-05T08:12:20Z" finished-at="2021-06-05T08:12:20Z">
+        <test-method status="PASS" signature="generteRepots()[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="generteRepots" is-config="true" duration-ms="129" started-at="2021-06-05T08:24:09Z" finished-at="2021-06-05T08:24:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generteRepots -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="close" is-config="true" duration-ms="1798" started-at="2021-06-05T08:12:21Z" finished-at="2021-06-05T08:12:22Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.automation.bussinessscript.FbTest@6b419da]" name="close" is-config="true" duration-ms="866" started-at="2021-06-05T08:24:09Z" finished-at="2021-06-05T08:24:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
