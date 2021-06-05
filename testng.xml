@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      
-      <class name="com.automation.bussinessscript.FbTest"/>
-      <class name="com.automation.bussinessscript.GmailTest"/>
-      <class name="com.automation.bussinessscript.FlipKart"/>
-    </classes>
-  </test> <!-- Test -->
+	
+	<test name="Chrome Test">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.automation.bussinessscript.FbTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

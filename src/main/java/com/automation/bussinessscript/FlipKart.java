@@ -13,7 +13,7 @@ import com.relevantcodes.extentreports.LogStatus;
 public class FlipKart extends BaseTest {
 	@Test
 	public void login() throws InterruptedException, IOException {
-		//getExtenttest().log(LogStatus.PASS, "browser opened");
+		getExtenttest().log(LogStatus.PASS, "browser opened");
 
 		String url = PojoUility.getconfig().getStringvalue("flipkart_url");
 
@@ -26,7 +26,7 @@ public class FlipKart extends BaseTest {
 
 
 		un.sendKeys(un_data);
-		//getExtenttest().log(LogStatus.PASS, "user name entered");
+		getExtenttest().log(LogStatus.PASS, "user name entered");
 
 		String pwd_xpath = PojoUility.getor().getStringvalue("flipkart_pwd_xpath");
 		WebElement pass = getDriver().findElement(By.xpath(pwd_xpath));
@@ -34,13 +34,13 @@ public class FlipKart extends BaseTest {
 		String pwd_data = PojoUility.getconfig().getStringvalue("flipkart_pwd_value");
 
 		pass.sendKeys(pwd_data);
-		//getExtenttest().log(LogStatus.PASS, "password entered");
+		getExtenttest().log(LogStatus.PASS, "password entered");
 
 		String login_xpath = PojoUility.getor().getStringvalue("flipkart_login_xpath");
 
 		WebElement loginbtn = getDriver().findElement(By.xpath(login_xpath));
 		loginbtn.click();
-		//getExtenttest().log(LogStatus.PASS, "flipkart login");
+		getExtenttest().log(LogStatus.PASS, "flipkart login");
 
 		Thread.sleep(3000);
 		System.out.println("New Code Added");

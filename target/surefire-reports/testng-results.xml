@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="3" passed="3" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-27T13:57:43Z" name="Suite" finished-at="2021-05-27T13:58:14Z" duration-ms="30907">
+  <suite name="Suite" duration-ms="30854" started-at="2021-06-05T15:11:50Z" finished-at="2021-06-05T15:12:20Z">
     <groups>
     </groups>
-    <test started-at="2021-05-27T13:57:43Z" name="Test" finished-at="2021-05-27T13:58:14Z" duration-ms="30907">
-      <class name="com.automation.bussinessscript.FlipKart">
-        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.FlipKart@463fd068]" started-at="2021-05-27T06:58:04Z" name="beforemethod" finished-at="2021-05-27T06:58:04Z" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.automation.bussinessscript.FlipKart.login() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login()[pri:0, instance:com.automation.bussinessscript.FlipKart@463fd068]" started-at="2021-05-27T06:58:04Z" name="login" finished-at="2021-05-27T06:58:13Z" duration-ms="9295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.FlipKart@463fd068]" started-at="2021-05-27T06:58:13Z" name="aftermethod" finished-at="2021-05-27T06:58:14Z" duration-ms="382" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=FlipKart.login()[pri:0, instance:com.automation.bussinessscript.FlipKart@463fd068] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-      </class> <!-- com.automation.bussinessscript.FlipKart -->
+    <test name="Chrome Test" duration-ms="30854" started-at="2021-06-05T15:11:50Z" finished-at="2021-06-05T15:12:20Z">
       <class name="com.automation.bussinessscript.FbTest">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.bussinessscript.FbTest@1130520d]" started-at="2021-05-27T06:57:39Z" name="OpenBrowser" finished-at="2021-05-27T06:57:43Z" duration-ms="3721" status="PASS">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="OpenBrowser" is-config="true" duration-ms="6043" started-at="2021-06-05T08:11:44Z" finished-at="2021-06-05T08:11:50Z">
           <params>
             <param index="0">
               <value>
@@ -46,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="initireports()[pri:0, instance:com.automation.bussinessscript.FbTest@1130520d]" started-at="2021-05-27T06:57:43Z" name="initireports" finished-at="2021-05-27T06:57:43Z" duration-ms="296" status="PASS">
+        <test-method status="PASS" signature="initireports()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="initireports" is-config="true" duration-ms="400" started-at="2021-06-05T08:11:50Z" finished-at="2021-06-05T08:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initireports -->
-        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.FbTest@1130520d]" started-at="2021-05-27T06:57:43Z" name="beforemethod" finished-at="2021-05-27T06:57:43Z" duration-ms="5" status="PASS">
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="beforemethod" is-config="true" duration-ms="14" started-at="2021-06-05T08:11:50Z" finished-at="2021-06-05T08:11:50Z">
           <params>
             <param index="0">
               <value>
@@ -61,58 +33,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="fblogin()[pri:0, instance:com.automation.bussinessscript.FbTest@1130520d]" started-at="2021-05-27T06:57:43Z" name="fblogin" finished-at="2021-05-27T06:57:50Z" duration-ms="6507" status="PASS">
+        <test-method status="PASS" signature="fblogin()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="fblogin" duration-ms="9792" started-at="2021-06-05T08:11:50Z" finished-at="2021-06-05T08:12:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fblogin -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.FbTest@1130520d]" started-at="2021-05-27T06:57:50Z" name="aftermethod" finished-at="2021-05-27T06:57:55Z" duration-ms="5318" status="PASS">
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="aftermethod" is-config="true" duration-ms="7864" started-at="2021-06-05T08:12:00Z" finished-at="2021-06-05T08:12:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fblogin status=SUCCESS method=FbTest.fblogin()[pri:0, instance:com.automation.bussinessscript.FbTest@1130520d] output={null}]]]>
+                <![CDATA[[TestResult name=fblogin status=SUCCESS method=FbTest.fblogin()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="generteRepots()[pri:0, instance:com.automation.bussinessscript.FbTest@1130520d]" started-at="2021-05-27T06:58:14Z" name="generteRepots" finished-at="2021-05-27T06:58:14Z" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generteRepots -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.automation.bussinessscript.FbTest@1130520d]" started-at="2021-05-27T06:58:14Z" name="close" finished-at="2021-05-27T06:58:18Z" duration-ms="4466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.automation.bussinessscript.FbTest -->
-      <class name="com.automation.bussinessscript.GmailTest">
-        <test-method signature="gmailogin()[pri:0, instance:com.automation.bussinessscript.GmailTest@5f77d0f9]" started-at="2021-05-27T06:57:55Z" name="gmailogin" finished-at="2021-05-27T06:58:04Z" duration-ms="8647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gmailogin -->
-        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.GmailTest@5f77d0f9]" started-at="2021-05-27T06:57:55Z" name="beforemethod" finished-at="2021-05-27T06:57:55Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="beforemethod" is-config="true" duration-ms="1" started-at="2021-06-05T08:12:08Z" finished-at="2021-06-05T08:12:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.automation.bussinessscript.GmailTest.gmailogin() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void com.automation.bussinessscript.FbTest.second()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.GmailTest@5f77d0f9]" started-at="2021-05-27T06:58:04Z" name="aftermethod" finished-at="2021-05-27T06:58:04Z" duration-ms="344" status="PASS">
+        <test-method status="PASS" signature="second()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="second" duration-ms="10172" started-at="2021-06-05T08:12:08Z" finished-at="2021-06-05T08:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="aftermethod" is-config="true" duration-ms="2329" started-at="2021-06-05T08:12:18Z" finished-at="2021-06-05T08:12:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=gmailogin status=SUCCESS method=GmailTest.gmailogin()[pri:0, instance:com.automation.bussinessscript.GmailTest@5f77d0f9] output={null}]]]>
+                <![CDATA[[TestResult name=second status=SUCCESS method=FbTest.second()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-      </class> <!-- com.automation.bussinessscript.GmailTest -->
-    </test> <!-- Test -->
+        <test-method status="PASS" signature="generteRepots()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="generteRepots" is-config="true" duration-ms="242" started-at="2021-06-05T08:12:20Z" finished-at="2021-06-05T08:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generteRepots -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.automation.bussinessscript.FbTest@3b2da18f]" name="close" is-config="true" duration-ms="1798" started-at="2021-06-05T08:12:21Z" finished-at="2021-06-05T08:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.automation.bussinessscript.FbTest -->
+    </test> <!-- Chrome Test -->
   </suite> <!-- Suite -->
 </testng-results>

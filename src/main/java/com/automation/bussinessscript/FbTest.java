@@ -13,6 +13,7 @@ import com.relevantcodes.extentreports.LogStatus;
 public class FbTest extends BaseTest {
 	@Test
 	public void fblogin() throws InterruptedException, IOException {
+		System.out.println(Thread.currentThread().getId());
 		getExtenttest().log(LogStatus.PASS, "browser opened");
 		String url = PojoUility.getconfig().getStringvalue("fb_url");
 
@@ -43,6 +44,13 @@ public class FbTest extends BaseTest {
 		getExtenttest().log(LogStatus.PASS, "gmail login");
 
 		Thread.sleep(3000);
+	}
+	@Test
+	public void second() {
+		getDriver().get("https://www.rameshsoft.com");
+
+		System.out.println("Second Test");
+		System.out.println(Thread.currentThread().getId());
 	}
 
 }
